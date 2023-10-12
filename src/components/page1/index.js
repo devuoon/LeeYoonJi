@@ -76,9 +76,15 @@ const Page1 = () => {
   }, []);
 
   return (
-    <div className="container">
-      <div className="text" ref={textRef}></div>
-    </div>
+    <>
+      <div className="container">
+        <div className="text" ref={textRef}></div>
+      </div>
+      <span class="scroll-indicator">
+        <span class="scroll-indicator-line"></span>
+        Scroll
+      </span>
+    </>
   );
 };
 
