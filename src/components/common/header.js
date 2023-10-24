@@ -1,6 +1,34 @@
 import React from "react";
 import styled from "styled-components";
 
+const Header = () => {
+  return (
+    <Wrap>
+      <div className="header-in">
+        <a href="/">Logo</a>
+      </div>
+      <div className="menu">
+        <ul>
+          <li>
+            <a href="/">About</a>
+          </li>
+          <li>
+            <a href="/">Skill</a>
+          </li>
+          <li>
+            <a href="/">Project</a>
+          </li>
+          <li>
+            <a href="/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </Wrap>
+  );
+};
+
+export default Header;
+
 const Wrap = styled.div`
   width: 100%;
   height: 90px;
@@ -29,31 +57,3 @@ const Wrap = styled.div`
     }
   }
 `;
-
-const Header = () => {
-  return (
-    <Wrap>
-      <div className="header-in">
-        <a href="/">Logo</a>
-      </div>
-      <div className="menu">
-        <ul>
-          <li>
-            <a href="/">About</a>
-          </li>
-          <li>
-            <a href="/">Skill</a>
-          </li>
-          <li>
-            <a href="/">Project</a>
-          </li>
-          <li>
-            <a href="/">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </Wrap>
-  );
-};
-
-export default Header;
