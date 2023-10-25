@@ -1,5 +1,8 @@
-import React, { useEffect, useRef } from "react";
-import "./index.css";
+import React, { useState, useEffect, useRef } from "react";
+import * as S from "../page.style";
+import useScrollPosition from "../../hook/scroll";
+
+const phrases = ["Hello, world", "LEE YOON JI PORTFOLIO", "FRONTEND DEVELOPER"];
 
 class TextScramble {
   constructor(el) {
@@ -55,10 +58,9 @@ class TextScramble {
   }
 }
 
-const phrases = ["Hello, world", "LEE YOON JI PORTFOLIO", "FRONTEND DEVELOPER"];
-
 const Page1 = () => {
   const textRef = useRef(null);
+  const scrollPosition = useScrollPosition();
 
   useEffect(() => {
     const el = textRef.current;
@@ -76,13 +78,22 @@ const Page1 = () => {
   }, []);
 
   return (
-    <div id="Page1" className="container">
-      <div className="text" ref={textRef}></div>
-      <span class="scroll-indicator">
-        <span class="scroll-indicator-line"></span>
-        Scroll
-      </span>
-    </div>
+    <S.ScrollStyle>
+      <S.Page1 id="Page1" className="container">
+        <div
+          className={`text ${scrollPosition > 100 ? "hidden_7" : "visible_7"}`}
+          ref={textRef}
+        ></div>
+        <S.ScrollWrap
+          className={scrollPosition > 100 ? "hidden_7" : "visible_7"}
+        >
+          <a href="/">
+            <span></span>
+            scroll
+          </a>
+        </S.ScrollWrap>
+      </S.Page1>
+    </S.ScrollStyle>
   );
 };
 

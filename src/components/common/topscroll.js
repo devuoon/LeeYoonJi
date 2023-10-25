@@ -1,15 +1,26 @@
 import React from "react";
+import * as S from "../page.style";
 import styled from "styled-components";
 import { AiOutlineArrowUp } from "react-icons/ai";
-import { Link } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
+import useScrollPosition from "../../hook/scroll";
+
+const scrollToTop = () => {
+  scroll.scrollToTop();
+};
 
 const Toptoscroll = () => {
+  const scrollPosition = useScrollPosition();
+
   return (
-    <TopWrap>
-      <Link to="Page1" spy={true} smooth={true}>
+    <S.ScrollStyle>
+      <TopWrap
+        onClick={scrollToTop}
+        className={scrollPosition < 900 ? "hidden" : "visible"}
+      >
         <AiOutlineArrowUp />
-      </Link>
-    </TopWrap>
+      </TopWrap>
+    </S.ScrollStyle>
   );
 };
 

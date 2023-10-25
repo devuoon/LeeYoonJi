@@ -6,6 +6,115 @@ export const PageWrap = styled.div`
   height: 100vh;
 `;
 
+export const ScrollStyle = styled.div`
+  .visible {
+    opacity: 1;
+  }
+
+  .hidden {
+    opacity: 0;
+  }
+
+  .visible_7 {
+    opacity: 1;
+    transition: 0.7s;
+  }
+
+  .hidden_7 {
+    opacity: 0;
+    transition: 0.7s;
+  }
+`;
+
+// PAGE 1
+export const Page1 = styled.div`
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  div.text {
+    font-weight: 400;
+    font-size: 80px;
+    color: #fafafa;
+    margin: auto;
+  }
+
+  .dud {
+    color: #757575;
+  }
+`;
+
+export const ScrollWrap = styled.div`
+  a {
+    position: absolute;
+    bottom: 30px;
+    padding-top: 60px;
+    left: 50%;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+  }
+  a span {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 1px solid #969696;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+  a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb 2s infinite;
+    animation: sdb 2s infinite;
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb {
+    0% {
+      -webkit-transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      -webkit-transform: translate(0, 20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes sdb {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      transform: translate(0, 20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+`;
+
 // PAGE 2
 
 export const BackWrap = styled.div`
@@ -145,6 +254,7 @@ export const FormWrap = styled.div`
       border: none;
       font-size: 15px;
       margin-bottom: 20px;
+      resize: none;
     }
 
     textarea:focus {
