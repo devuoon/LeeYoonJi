@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const PageWrap = styled.div`
   max-width: 1200px;
   margin: 0 auto;
+  height: 100vh;
 `;
 
 // PAGE 2
@@ -101,5 +102,66 @@ export const ChartWrap = styled.div`
 
   .apexcharts-text {
     fill: #fff;
+  }
+`;
+
+// page5
+
+export const FormWrap = styled.div`
+  max-width: 500px;
+  margin: 0 auto;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 40px;
+
+    label {
+      font-size: 20px;
+      font-weight: 300;
+      padding-bottom: 4px;
+    }
+
+    input {
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: none;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    textarea {
+      width: 100%;
+      height: 300px;
+      box-sizing: border-box;
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: none;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+
+    textarea:focus {
+      outline: none;
+    }
+
+    input[type="submit"] {
+      cursor: pointer;
+      background: none;
+      border: 1px solid #fff;
+      color: #fff;
+      padding: 14px;
+      margin-bottom: 0;
+    }
+    input[type="submit"]:hover {
+      background: #fff;
+      color: #000;
+    }
   }
 `;

@@ -15,6 +15,25 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
 const SwiperWrap = styled(Swiper)`
   max-width: 900px;
+  overflow: visible;
+
+  .swiper-pagination {
+    bottom: -100px;
+  }
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 15px !important;
+    background: #dcdcdc;
+  }
+  .swiper-pagination-bullet-active {
+    background: #fff;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #dcdcdc;
+    opacity: 0.6;
+  }
 `;
 
 const ProjectSlide = styled(SwiperSlide)`
@@ -32,7 +51,7 @@ const ProjectSlide = styled(SwiperSlide)`
   }
 
   h2 {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-weight: 800;
     padding-bottom: 10px;
   }
@@ -46,9 +65,10 @@ const ProjectSlide = styled(SwiperSlide)`
   h3 {
     max-width: 100%;
     margin-top: 20px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 300;
     word-break: keep-all;
+    line-height: 1.5rem;
   }
 
   .flexwrap {
@@ -64,6 +84,40 @@ const ProjectSlide = styled(SwiperSlide)`
       white-space: nowrap;
       will-change: transform;
       transition: transform 300ms;
+    }
+
+    button.Site {
+      position: relative;
+      height: 38px;
+      line-height: 38px;
+      padding-right: 17px;
+      padding-left: 36px;
+      opacity: 1;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+      background-color: rgb(42, 42, 110);
+      transition: 150ms;
+      white-space: nowrap;
+      border: none;
+      margin-right: 15px;
+    }
+
+    button.Git {
+      position: relative;
+      height: 38px;
+      line-height: 38px;
+      padding-right: 20px;
+      padding-left: 47px;
+      opacity: 1;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      transition: 150ms;
+      white-space: nowrap;
+      box-sizing: border-box;
+      border: none;
     }
   }
 `;
@@ -103,8 +157,8 @@ const Page4 = () => {
               <a>#또뭐있지</a>
             </div>
             <div className="flexwrap">
-              <button>사이트 바로가기</button>
-              <button>Github</button>
+              <button className="Site">사이트 바로가기</button>
+              <button className="Git">Github</button>
             </div>
           </div>
         </ProjectSlide>
