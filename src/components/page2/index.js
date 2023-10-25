@@ -3,7 +3,7 @@ import * as S from "../page.style";
 
 const Page2 = () => {
   return (
-    <S.BackWrap>
+    <S.BackWrap id="Page2">
       <S.ImgWrap></S.ImgWrap>
       <S.TextWrap>
         <h3>

@@ -13,6 +13,55 @@ import "swiper/css/pagination";
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
+const Page4 = () => {
+  return (
+    <S.PageWrap id="Page4">
+      <S.Title>
+        <h2>PROJECTS</h2>
+      </S.Title>
+      <SwiperWrap
+        cssMode={true}
+        navigation={true}
+        pagination={true}
+        mousewheel={true}
+        keyboard={true}
+        loop={true}
+        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+        className="mySwiper"
+      >
+        <ProjectSlide>
+          <div>
+            <img
+              src="https://i.ibb.co/NsvdfQK/portfolio-main.png"
+              alt="portfolio-main"
+            />
+            <h2>PORTFOLIO</h2>
+            <p>개인프로젝트</p>
+            <h3>
+              JQuery + SCSS 를 이용해 만든 포트폴리오 입니다. UI/UX 와 비주얼
+              부분을 포트폴리오를 보는 입장을 생각하며 신경써서 진행했습니다.
+              반응형웹으로 만들어져 모든 환경에서 사용가능합니다.
+            </h3>
+            <div className="flexwrap">
+              <a>#React</a>
+              <a>#반응형웹</a>
+              <a>#또뭐있지</a>
+            </div>
+            <div className="flexwrap">
+              <button className="Site">사이트 바로가기</button>
+              <button className="Git">Github</button>
+            </div>
+          </div>
+        </ProjectSlide>
+        <ProjectSlide>Slide 2</ProjectSlide>
+        <ProjectSlide>Slide 3</ProjectSlide>
+      </SwiperWrap>
+    </S.PageWrap>
+  );
+};
+
+export default Page4;
+
 const SwiperWrap = styled(Swiper)`
   max-width: 900px;
   overflow: visible;
@@ -121,52 +170,3 @@ const ProjectSlide = styled(SwiperSlide)`
     }
   }
 `;
-
-const Page4 = () => {
-  return (
-    <S.PageWrap>
-      <S.Title>
-        <h2>PROJECTS</h2>
-      </S.Title>
-      <SwiperWrap
-        cssMode={true}
-        navigation={true}
-        pagination={true}
-        mousewheel={true}
-        keyboard={true}
-        loop={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
-      >
-        <ProjectSlide>
-          <div>
-            <img
-              src="https://i.ibb.co/NsvdfQK/portfolio-main.png"
-              alt="portfolio-main"
-            />
-            <h2>PORTFOLIO</h2>
-            <p>개인프로젝트</p>
-            <h3>
-              JQuery + SCSS 를 이용해 만든 포트폴리오 입니다. UI/UX 와 비주얼
-              부분을 포트폴리오를 보는 입장을 생각하며 신경써서 진행했습니다.
-              반응형웹으로 만들어져 모든 환경에서 사용가능합니다.
-            </h3>
-            <div className="flexwrap">
-              <a>#React</a>
-              <a>#반응형웹</a>
-              <a>#또뭐있지</a>
-            </div>
-            <div className="flexwrap">
-              <button className="Site">사이트 바로가기</button>
-              <button className="Git">Github</button>
-            </div>
-          </div>
-        </ProjectSlide>
-        <ProjectSlide>Slide 2</ProjectSlide>
-        <ProjectSlide>Slide 3</ProjectSlide>
-      </SwiperWrap>
-    </S.PageWrap>
-  );
-};
-
-export default Page4;

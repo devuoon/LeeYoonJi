@@ -33,7 +33,7 @@ const Page5 = () => {
   };
 
   return (
-    <S.PageWrap>
+    <S.PageWrap id="Page5">
       <S.Title>
         <h2>CONTACT ME</h2>
       </S.Title>

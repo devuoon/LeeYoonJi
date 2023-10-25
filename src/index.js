@@ -10,11 +10,13 @@ import Page3 from "./components/page3/index";
 import Page4 from "./components/page4/index";
 import Page5 from "./components/page5/index";
 import Footer from "./components/common/footer";
+import Toptoscroll from "./components/common/topscroll";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Header />
+    <Toptoscroll />
     <Page1 />
     <Page2 />
     <Page3 />

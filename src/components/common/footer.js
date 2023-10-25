@@ -8,17 +8,20 @@ const Footer = () => {
     <FooterWrap>
       <ul>
         <li>
-          <a href="https://github.com/devuoon">
+          <a href="https://github.com/devuoon" target="_blank">
             <FaGithubSquare />
           </a>
         </li>
         <li>
-          <a href="https://yoon-dev.tistory.com/">
+          <a href="https://yoon-dev.tistory.com/" target="_blank">
             <SiTistory />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/%EC%9C%A5%EC%9D%B4-undefined-07333328b/">
+          <a
+            href="https://www.linkedin.com/in/%EC%9C%A5%EC%9D%B4-undefined-07333328b/"
+            target="_blank"
+          >
             <FaLinkedin />
           </a>
         </li>

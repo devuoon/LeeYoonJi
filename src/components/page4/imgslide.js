@@ -17,7 +17,7 @@ export default function ImgSlide() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <div className="imgwrap">
+    <div id="Page4" className="imgwrap">
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",

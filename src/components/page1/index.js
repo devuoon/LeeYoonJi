@@ -76,15 +76,13 @@ const Page1 = () => {
   }, []);
 
   return (
-    <>
-      <div className="container">
-        <div className="text" ref={textRef}></div>
-      </div>
+    <div id="Page1" className="container">
+      <div className="text" ref={textRef}></div>
       <span class="scroll-indicator">
         <span class="scroll-indicator-line"></span>
         Scroll
       </span>
-    </>
+    </div>
   );
 };
 

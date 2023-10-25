@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -10,16 +11,24 @@ const Header = () => {
       <div className="menu">
         <ul>
           <li>
-            <a href="/">About</a>
+            <Link to="Page2" spy={true} smooth={true}>
+              <a>About</a>
+            </Link>
           </li>
           <li>
-            <a href="/">Skill</a>
+            <Link to="Page3" spy={true} smooth={true}>
+              <a>Skill</a>
+            </Link>
           </li>
           <li>
-            <a href="/">Project</a>
+            <Link to="Page4" spy={true} smooth={true}>
+              <a>Project</a>
+            </Link>
           </li>
           <li>
-            <a href="/">Contact</a>
+            <Link to="Page5" spy={true} smooth={true}>
+              <a>Contact</a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -54,6 +63,7 @@ const Wrap = styled.div`
 
     &:hover {
       text-decoration: underline;
+      color: #00c4ff;
     }
   }
 `;
