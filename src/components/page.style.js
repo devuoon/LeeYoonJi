@@ -24,6 +24,14 @@ export const ScrollStyle = styled.div`
     opacity: 0;
     transition: 0.7s;
   }
+
+  .Back_white {
+    background-color: #fff;
+  }
+
+  .Back_black {
+    background-color: #000;
+  }
 `;
 
 // PAGE 1
@@ -33,6 +41,29 @@ export const Page1 = styled.div`
   justify-content: center;
   align-items: center;
   display: flex;
+  background: linear-gradient(
+    -45deg,
+    #000000,
+    rgb(61, 22, 41),
+    rgb(36, 20, 63),
+    #68648b
+  );
+  background-size: 400% 400%;
+  animation: gradient 14s ease-in-out infinite;
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
   div.text {
     font-weight: 400;
@@ -119,16 +150,34 @@ export const ScrollWrap = styled.div`
 
 export const BackWrap = styled.div`
   margin: 0 auto;
-  padding: 160px 0;
+  padding: 60px 0px 160px;
   display: flex;
   justify-content: center;
+  position: relative;
+  height: 100vh;
+  align-content: center;
+  flex-wrap: wrap;
+
+  h1 {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    font-size: 120px;
+    font-weight: 900;
+    z-index: -1;
+    -webkit-text-stroke: 1.6px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.4);
+    -webkit-text-fill-color: transparent;
+  }
 `;
 
 export const ImgWrap = styled.div`
   width: 400px;
   height: 500px;
-  background-color: #ddd;
   margin-right: 130px;
+  background: url("https://i.ibb.co/8dbCvhf/aboutme2.jpg") no-repeat
+    center/cover;
+  border-radius: 10px;
 `;
 
 export const TextWrap = styled.div`
@@ -146,11 +195,9 @@ export const TextWrap = styled.div`
   }
 
   h2 {
-    border-top: 1px solid #fff;
-    padding-top: 30px;
     font-size: 28px;
     font-weight: 500;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 
   .flex-wrap {
@@ -158,11 +205,20 @@ export const TextWrap = styled.div`
     justify-content: space-between;
     padding-bottom: 15px;
 
+    &.last {
+      padding-bottom: 0px;
+    }
+
     h4 {
       font-size: 20px;
       font-weight: 600;
     }
   }
+`;
+
+export const Edubox = styled.div`
+  padding: 30px 0;
+  border-top: 1px solid #fff;
 `;
 
 // PAGE3
@@ -179,6 +235,7 @@ export const Title = styled.div`
 
   p {
     font-size: 17px;
+    line-height: 20px;
   }
 `;
 
