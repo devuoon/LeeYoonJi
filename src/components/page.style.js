@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const PageWrap = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  height: 100vh;
 `;
 
 export const ScrollStyle = styled.div`
@@ -223,6 +222,20 @@ export const Edubox = styled.div`
 
 // PAGE3
 
+export const Page3 = styled.div`
+  height: 100vh;
+  background-size: 30px 30px;
+  background-image: repeating-radial-gradient(
+    rgba(255, 255, 255, 0.2) 0px,
+    black 2px,
+    black 48px
+  );
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+`;
+
 export const Title = styled.div`
   text-align: center;
   margin-bottom: 60px;
@@ -242,7 +255,6 @@ export const Title = styled.div`
 export const Title2 = styled.h3`
   display: inline-block;
   font-size: 17px;
-  color: #fff;
   padding: 7px 16px;
   border: 1px solid #fff;
   border-radius: 20px;
@@ -266,15 +278,36 @@ export const ChartWrap = styled.div`
     fill: #339af0 !important;
   }
 
-  .apexcharts-text {
+  .apexcharts-datalabel-value {
     fill: #fff;
+  }
+
+  .apexcharts-track {
+    stroke: rgba(242, 242, 242, 0.2);
+  }
+
+  .apexcharts-radialbar-hollow {
   }
 `;
 
+// Page 4
+export const Page4 = styled.div`
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+`;
+
 // page5
+export const Page5 = styled.div`
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+`;
 
 export const FormWrap = styled.div`
-  max-width: 500px;
+  min-width: 500px;
   margin: 0 auto;
 
   form {
