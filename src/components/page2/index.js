@@ -26,7 +26,7 @@ const Page2 = () => {
             <br />
           </h3>
           <S.Edubox>
-            <h2>EDUCATION</h2>
+            <h2>📚 EDUCATION</h2>
             <div className="flex-wrap">
               <h4>경상대학교</h4>
               <p>
@@ -50,7 +50,7 @@ const Page2 = () => {
             </div>
           </S.Edubox>
           <S.Edubox>
-            <h2>CAREER</h2>
+            <h2>💻 CAREER</h2>
             <div className="flex-wrap">
               <h4>디자인더블유</h4>
               <p>

@@ -196,21 +196,28 @@ export const TextWrap = styled.div`
   h2 {
     font-size: 28px;
     font-weight: 500;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 
   .flex-wrap {
     display: flex;
     justify-content: space-between;
     padding-bottom: 15px;
+    align-items: center;
 
     &.last {
       padding-bottom: 0px;
     }
 
     h4 {
-      font-size: 20px;
+      font-size: 17px;
       font-weight: 600;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 18px;
+      font-weight: 300;
     }
   }
 `;

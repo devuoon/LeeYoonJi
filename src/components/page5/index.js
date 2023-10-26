@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import * as S from "../page.style";
 import emailjs from "@emailjs/browser";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 const Page5 = () => {
   const form = useRef();
