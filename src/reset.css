@@ -134,3 +134,7 @@ a,
 button {
   cursor: pointer;
 }
+
+.swiper-wrapper {
+  box-sizing: border-box;
+}
