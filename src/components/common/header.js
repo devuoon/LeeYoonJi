@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Wrap>
       <div className="header-in">
-        <a href="/">Logo</a>
+        <a href="/">YOONJI's Portfolio</a>
       </div>
       <div className="menu">
         <ul>
