@@ -335,6 +335,116 @@ export const Page4 = styled.div`
   align-content: center;
   flex-wrap: wrap;
   height: 100vh;
+  background: url("my-react-app/src/img/3.jpeg") no-repeat center/cover;
+  width: 100%;
+
+  .mySwiper {
+    max-width: 642px;
+    overflow: visible;
+  }
+  .swiper-pagination {
+    bottom: -60px;
+  }
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 15px !important;
+    background: #dcdcdc;
+  }
+  .swiper-pagination-bullet-active {
+    background: #fff;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #dcdcdc;
+    opacity: 0.6;
+  }
+  .swiper-button-prev {
+    left: -80px;
+  }
+  .swiper-button-next {
+    right: -80px;
+  }
+
+  .projectslide {
+    margin: 0 auto;
+    img {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 1.9rem;
+      font-weight: 800;
+      padding-bottom: 10px;
+    }
+    p {
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: #a4a4ff;
+    }
+    h3 {
+      max-width: 100%;
+      margin-top: 20px;
+      font-size: 1rem;
+      font-weight: 300;
+      word-break: keep-all;
+      line-height: 1.5rem;
+    }
+  }
+`;
+
+export const FlexWrap2 = styled.div`
+  display: flex;
+  padding-top: 30px;
+
+  a {
+    padding: 8px 15px;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    background-color: rgba(55, 55, 67, 0.7);
+    border-radius: 7px;
+    white-space: nowrap;
+    will-change: transform;
+    transition: transform 300ms;
+  }
+  button {
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 17px;
+    opacity: 1;
+    font-size: 0.9rem;
+    transition: 150ms;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 1.3em;
+      height: 1.3em;
+      padding-right: 5px;
+    }
+  }
+  button.Site {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 42, 110);
+    transition: 150ms;
+    white-space: nowrap;
+    border: none;
+    margin-right: 15px;
+  }
+  button.Git {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
 `;
 
 // page5
@@ -343,6 +453,7 @@ export const Page5 = styled.div`
   align-content: center;
   flex-wrap: wrap;
   height: 100vh;
+  padding: 100px 0 0;
 `;
 
 export const FormWrap = styled.div`

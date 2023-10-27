@@ -8,7 +8,6 @@ const Page3 = () => {
       <S.PageWrap id="Page3">
         <S.Title>
           <h2>TECH STACK</h2>
-          <p>아이콘에 마우스를 올리면 자세한 설명을 볼 수 있습니다.</p>
         </S.Title>
         <S.ToolWrap>
           <S.ToolBox>
