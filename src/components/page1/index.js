@@ -79,7 +79,11 @@ const Page1 = () => {
 
   return (
     <S.ScrollStyle>
-      <S.Page1 id="Page1" className="container">
+      <S.Page1
+        id="Page1"
+        className="container"
+        data-scroll-indicator-title="Hello World"
+      >
         <div
           className={`text ${scrollPosition > 100 ? "hidden_7" : "visible_7"}`}
           ref={textRef}

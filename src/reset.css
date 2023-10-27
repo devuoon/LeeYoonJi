@@ -3,6 +3,14 @@
    License: none (public domain)
 */
 
+html {
+  --cursor-color: #333;
+}
+
+html.dark-mode {
+  --cursor-color: #fff;
+}
+
 html,
 body,
 div,

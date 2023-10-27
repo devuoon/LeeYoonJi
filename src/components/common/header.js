@@ -6,7 +6,13 @@ const Header = () => {
   return (
     <Wrap>
       <div className="header-in">
-        <a href="/">YOONJI's Portfolio</a>
+        <a href="/">
+          <img
+            src="https://i.ibb.co/FzcHWdT/Group-9.png"
+            alt="Logo"
+            border="0"
+          />
+        </a>
       </div>
       <div className="menu">
         <ul>
@@ -43,10 +49,16 @@ const Wrap = styled.div`
   height: 90px;
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
   padding: 0 80px;
   align-items: center;
   box-sizing: border-box;
+
+  img {
+    width: 150px;
+  }
 
   ul {
     display: flex;
