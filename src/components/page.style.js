@@ -237,10 +237,7 @@ export const Page3 = styled.div`
     black 2px,
     black 48px
   );
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  height: 100vh;
+  padding-top: 180px;
 `;
 
 export const Title = styled.div`
@@ -294,6 +291,41 @@ export const ChartWrap = styled.div`
   }
 
   .apexcharts-radialbar-hollow {
+  }
+`;
+
+export const ToolWrap = styled.div`
+  display: flex;
+  justify-content: space-around;
+`;
+
+export const ToolBox = styled.div`
+  .space {
+    padding-bottom: 15px;
+  }
+
+  p {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+`;
+
+export const FlexWrap = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  img {
+    width: 3em;
+    height: 100%;
+    float: left;
+  }
+  div.flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .progressBarFancyContainer .label {
+    padding-bottom: 5px;
   }
 `;
 
