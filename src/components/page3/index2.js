@@ -1,16 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import * as S from "../page.style";
 import { ProgressBar } from "react-progressbar-fancy";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Page3 = () => {
+  useEffect(() => {
+    AOS.init();
+  });
+
   return (
     <S.Page3>
       <S.PageWrap id="Page3">
         <S.Title>
-          <h2>TECH STACK</h2>
+          <h2 data-aos="fade-up" data-aos-duration="1000">
+            TECH STACK
+          </h2>
         </S.Title>
         <S.ToolWrap>
-          <S.ToolBox>
+          <S.ToolBox
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <S.Title2>#FRONT-END</S.Title2>
             <S.FlexWrap>
               <img
@@ -133,7 +145,11 @@ const Page3 = () => {
               </div>
             </S.FlexWrap>
           </S.ToolBox>
-          <S.ToolBox>
+          <S.ToolBox
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
             <S.Title2>#Using Tool</S.Title2>
             <S.FlexWrap>
               <img
