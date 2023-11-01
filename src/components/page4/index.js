@@ -112,7 +112,7 @@ const Page4 = () => {
                   사이트 바로가기
                 </a>
                 <a
-                  href="https://github.com/challeniz/front-end"
+                  href="https://github.com/devuoon/challeniz"
                   className="Git"
                   target="_blank"
                 >
