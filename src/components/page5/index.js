@@ -1,8 +1,14 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import * as S from "../page.style";
 import emailjs from "@emailjs/browser";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Page5 = () => {
+  useEffect(() => {
+    AOS.init();
+  });
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -36,9 +42,15 @@ const Page5 = () => {
     <S.Page5>
       <S.PageWrap id="Page5">
         <S.Title>
-          <h2>CONTACT ME</h2>
+          <h2 data-aos="fade-up" data-aos-duration="1000">
+            CONTACT ME
+          </h2>
         </S.Title>
-        <S.FormWrap>
+        <S.FormWrap
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
           <form ref={form} onSubmit={sendEmail}>
             <label>From</label>
             <input

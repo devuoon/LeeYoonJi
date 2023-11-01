@@ -183,13 +183,16 @@ export const TextWrap = styled.div`
   color: #fff;
 
   h3 {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
     padding-bottom: 30px;
 
     span {
-      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-weight: 500;
+      line-height: 28px;
     }
   }
 
@@ -233,7 +236,7 @@ export const Page3 = styled.div`
   height: 100vh;
   background-size: 30px 30px;
   background-image: repeating-radial-gradient(
-    rgba(255, 255, 255, 0.2) 0px,
+    rgba(255, 255, 255, 0.4) 0px,
     black 2px,
     black 48px
   );
@@ -245,9 +248,10 @@ export const Title = styled.div`
   margin-bottom: 60px;
 
   h2 {
-    font-size: 40px;
-    font-weight: 600;
-    padding-bottom: 5px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 900;
+    padding-bottom: 30px;
   }
 
   p {
@@ -276,21 +280,6 @@ export const ChartWrap = styled.div`
     position: absolute;
     left: 50%;
     transform: translateX(10px);
-  }
-
-  .apexcharts-datalabel-label {
-    fill: #339af0 !important;
-  }
-
-  .apexcharts-datalabel-value {
-    fill: #fff;
-  }
-
-  .apexcharts-track {
-    stroke: rgba(242, 242, 242, 0.2);
-  }
-
-  .apexcharts-radialbar-hollow {
   }
 `;
 
@@ -380,7 +369,7 @@ export const Page4 = styled.div`
       font-weight: 800;
       padding-bottom: 10px;
     }
-    p {
+    p.subinfo {
       font-size: 0.9rem;
       font-weight: 300;
       color: #a4a4ff;
@@ -400,7 +389,7 @@ export const FlexWrap2 = styled.div`
   display: flex;
   padding-top: 30px;
 
-  a {
+  p {
     padding: 8px 15px;
     margin-right: 16px;
     margin-bottom: 10px;
@@ -409,8 +398,9 @@ export const FlexWrap2 = styled.div`
     white-space: nowrap;
     will-change: transform;
     transition: transform 300ms;
+    color: #fff;
   }
-  button {
+  a {
     position: relative;
     height: 38px;
     line-height: 38px;
@@ -430,7 +420,7 @@ export const FlexWrap2 = styled.div`
       padding-right: 5px;
     }
   }
-  button.Site {
+  a.Site {
     font-weight: 500;
     color: rgb(255, 255, 255);
     background-color: rgb(42, 42, 110);
@@ -439,7 +429,7 @@ export const FlexWrap2 = styled.div`
     border: none;
     margin-right: 15px;
   }
-  button.Git {
+  a.Git {
     font-size: 0.9rem;
     font-weight: 700;
     color: rgb(0, 0, 0);
