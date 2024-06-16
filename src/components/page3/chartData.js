@@ -1,4 +1,5 @@
 export const chartsData = [
+  // front
   // HTML5
   {
     series: [95],
@@ -151,57 +152,6 @@ export const chartsData = [
       labels: ["JavaScript"],
     },
   },
-  // Jquery
-  {
-    series: [60],
-    options: {
-      chart: {
-        height: 200,
-        type: "radialBar",
-      },
-      plotOptions: {
-        radialBar: {
-          hollow: {
-            margin: 15,
-            size: "70%",
-            image: "https://i.ibb.co/KXyYC20/jquery.png",
-            imageWidth: 64,
-            imageHeight: 64,
-            imageClipped: false,
-          },
-          dataLabels: {
-            name: {
-              show: false,
-              color: "#fff",
-            },
-            value: {
-              show: true,
-              color: "#333",
-              offsetY: 40,
-              fontSize: "15px",
-            },
-          },
-        },
-      },
-      fill: {
-        type: "gradient",
-        gradient: {
-          shade: "dark",
-          type: "horizontal",
-          shadeIntensity: 0.5,
-          gradientToColors: ["#ABE5A1"],
-          inverseColors: true,
-          opacityFrom: 1,
-          opacityTo: 1,
-          stops: [0, 100],
-        },
-      },
-      stroke: {
-        lineCap: "round",
-      },
-      labels: ["Jquery"],
-    },
-  },
   // React
   {
     series: [75],
@@ -305,9 +255,9 @@ export const chartsData = [
       labels: ["TypeScript"],
     },
   },
-  // VS Code
+  // Tailwind
   {
-    series: [90],
+    series: [65],
     options: {
       chart: {
         height: 200,
@@ -318,7 +268,8 @@ export const chartsData = [
           hollow: {
             margin: 15,
             size: "70%",
-            image: "https://i.ibb.co/pwHZvr7/vscode.png",
+            image:
+                "https://i.ibb.co/Dp19bqX/tailwind.png",
             imageWidth: 64,
             imageHeight: 64,
             imageClipped: false,
@@ -353,7 +304,213 @@ export const chartsData = [
       stroke: {
         lineCap: "round",
       },
-      labels: ["VS Code"],
+      labels: ["Tailwind"],
+    },
+  },
+
+  // Back,Data,devOps
+  //Java
+  {
+    series: [75],
+    options: {
+      chart: {
+        height: 200,
+        type: "radialBar",
+      },
+      plotOptions: {
+        radialBar: {
+          hollow: {
+            margin: 15,
+            size: "70%",
+            image: "https://i.ibb.co/9g5Qfzf/java.png",
+            imageWidth: 64,
+            imageHeight: 64,
+            imageClipped: false,
+          },
+          dataLabels: {
+            name: {
+              show: false,
+              color: "#fff",
+            },
+            value: {
+              show: true,
+              color: "#333",
+              offsetY: 40,
+              fontSize: "15px",
+            },
+          },
+        },
+      },
+      fill: {
+        type: "gradient",
+        gradient: {
+          shade: "dark",
+          type: "horizontal",
+          shadeIntensity: 0.5,
+          gradientToColors: ["#ABE5A1"],
+          inverseColors: true,
+          opacityFrom: 1,
+          opacityTo: 1,
+          stops: [0, 100],
+        },
+      },
+      stroke: {
+        lineCap: "round",
+      },
+      labels: ["Java"],
+    },
+  },
+  //Spring
+  {
+    series: [75],
+    options: {
+      chart: {
+        height: 200,
+        type: "radialBar",
+      },
+      plotOptions: {
+        radialBar: {
+          hollow: {
+            margin: 15,
+            size: "70%",
+            image: "https://i.ibb.co/r2zRzxD/spring.png",
+            imageWidth: 64,
+            imageHeight: 64,
+            imageClipped: false,
+          },
+          dataLabels: {
+            name: {
+              show: false,
+              color: "#fff",
+            },
+            value: {
+              show: true,
+              color: "#333",
+              offsetY: 40,
+              fontSize: "15px",
+            },
+          },
+        },
+      },
+      fill: {
+        type: "gradient",
+        gradient: {
+          shade: "dark",
+          type: "horizontal",
+          shadeIntensity: 0.5,
+          gradientToColors: ["#ABE5A1"],
+          inverseColors: true,
+          opacityFrom: 1,
+          opacityTo: 1,
+          stops: [0, 100],
+        },
+      },
+      stroke: {
+        lineCap: "round",
+      },
+      labels: ["Spring"],
+    },
+  },
+  // MyBatis
+  {
+    series: [50],
+    options: {
+      chart: {
+        height: 200,
+        type: "radialBar",
+      },
+      plotOptions: {
+        radialBar: {
+          hollow: {
+            margin: 15,
+            size: "70%",
+            image: "https://i.ibb.co/WpV5JMt/mybatis.png",
+            imageWidth: 64,
+            imageHeight: 64,
+            imageClipped: false,
+          },
+          dataLabels: {
+            name: {
+              show: false,
+              color: "#fff",
+            },
+            value: {
+              show: true,
+              color: "#333",
+              offsetY: 40,
+              fontSize: "15px",
+            },
+          },
+        },
+      },
+      fill: {
+        type: "gradient",
+        gradient: {
+          shade: "dark",
+          type: "horizontal",
+          shadeIntensity: 0.5,
+          gradientToColors: ["#ABE5A1"],
+          inverseColors: true,
+          opacityFrom: 1,
+          opacityTo: 1,
+          stops: [0, 100],
+        },
+      },
+      stroke: {
+        lineCap: "round",
+      },
+      labels: ["MyBatis"],
+    },
+  },
+  // Oracle
+  {
+    series: [90],
+    options: {
+      chart: {
+        height: 200,
+        type: "radialBar",
+      },
+      plotOptions: {
+        radialBar: {
+          hollow: {
+            margin: 15,
+            size: "70%",
+            image: "https://i.ibb.co/fSCgRdX/oracle.png",
+            imageWidth: 64,
+            imageHeight: 64,
+            imageClipped: false,
+          },
+          dataLabels: {
+            name: {
+              show: false,
+              color: "#fff",
+            },
+            value: {
+              show: true,
+              color: "#333",
+              offsetY: 40,
+              fontSize: "15px",
+            },
+          },
+        },
+      },
+      fill: {
+        type: "gradient",
+        gradient: {
+          shade: "dark",
+          type: "horizontal",
+          shadeIntensity: 0.5,
+          gradientToColors: ["#ABE5A1"],
+          inverseColors: true,
+          opacityFrom: 1,
+          opacityTo: 1,
+          stops: [0, 100],
+        },
+      },
+      stroke: {
+        lineCap: "round",
+      },
+      labels: ["Oracle"],
     },
   },
   // Git
@@ -407,58 +564,7 @@ export const chartsData = [
       labels: ["Git"],
     },
   },
-  // Postman
-  {
-    series: [50],
-    options: {
-      chart: {
-        height: 200,
-        type: "radialBar",
-      },
-      plotOptions: {
-        radialBar: {
-          hollow: {
-            margin: 15,
-            size: "70%",
-            image: "https://i.ibb.co/yfVvNr9/postman.png",
-            imageWidth: 64,
-            imageHeight: 64,
-            imageClipped: false,
-          },
-          dataLabels: {
-            name: {
-              show: false,
-              color: "#fff",
-            },
-            value: {
-              show: true,
-              color: "#333",
-              offsetY: 40,
-              fontSize: "15px",
-            },
-          },
-        },
-      },
-      fill: {
-        type: "gradient",
-        gradient: {
-          shade: "dark",
-          type: "horizontal",
-          shadeIntensity: 0.5,
-          gradientToColors: ["#ABE5A1"],
-          inverseColors: true,
-          opacityFrom: 1,
-          opacityTo: 1,
-          stops: [0, 100],
-        },
-      },
-      stroke: {
-        lineCap: "round",
-      },
-      labels: ["Postman"],
-    },
-  },
-  // Photoshop
+  // Docker
   {
     series: [90],
     options: {
@@ -471,7 +577,7 @@ export const chartsData = [
           hollow: {
             margin: 15,
             size: "70%",
-            image: "https://i.ibb.co/4Kxm0rV/photoshop.png",
+            image: "https://i.ibb.co/5nKJTfY/Docker.png",
             imageWidth: 64,
             imageHeight: 64,
             imageClipped: false,
@@ -506,109 +612,7 @@ export const chartsData = [
       stroke: {
         lineCap: "round",
       },
-      labels: ["Photoshop"],
-    },
-  },
-  //illustrator
-  {
-    series: [90],
-    options: {
-      chart: {
-        height: 200,
-        type: "radialBar",
-      },
-      plotOptions: {
-        radialBar: {
-          hollow: {
-            margin: 15,
-            size: "70%",
-            image: "https://i.ibb.co/WFhWH40/illustrator.png",
-            imageWidth: 64,
-            imageHeight: 64,
-            imageClipped: false,
-          },
-          dataLabels: {
-            name: {
-              show: false,
-              color: "#fff",
-            },
-            value: {
-              show: true,
-              color: "#333",
-              offsetY: 40,
-              fontSize: "15px",
-            },
-          },
-        },
-      },
-      fill: {
-        type: "gradient",
-        gradient: {
-          shade: "dark",
-          type: "horizontal",
-          shadeIntensity: 0.5,
-          gradientToColors: ["#ABE5A1"],
-          inverseColors: true,
-          opacityFrom: 1,
-          opacityTo: 1,
-          stops: [0, 100],
-        },
-      },
-      stroke: {
-        lineCap: "round",
-      },
-      labels: ["illustrator"],
-    },
-  },
-  //Figma
-  {
-    series: [75],
-    options: {
-      chart: {
-        height: 200,
-        type: "radialBar",
-      },
-      plotOptions: {
-        radialBar: {
-          hollow: {
-            margin: 15,
-            size: "70%",
-            image: "https://i.ibb.co/txRHjf7/figma.png",
-            imageWidth: 64,
-            imageHeight: 64,
-            imageClipped: false,
-          },
-          dataLabels: {
-            name: {
-              show: false,
-              color: "#fff",
-            },
-            value: {
-              show: true,
-              color: "#333",
-              offsetY: 40,
-              fontSize: "15px",
-            },
-          },
-        },
-      },
-      fill: {
-        type: "gradient",
-        gradient: {
-          shade: "dark",
-          type: "horizontal",
-          shadeIntensity: 0.5,
-          gradientToColors: ["#ABE5A1"],
-          inverseColors: true,
-          opacityFrom: 1,
-          opacityTo: 1,
-          stops: [0, 100],
-        },
-      },
-      stroke: {
-        lineCap: "round",
-      },
-      labels: ["Figma"],
+      labels: ["Docker"],
     },
   },
 ];

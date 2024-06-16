@@ -13,7 +13,7 @@ class Page3 extends Component {
             <h2>TECH STACK</h2>
             <p>아이콘에 마우스를 올리면 자세한 설명을 볼 수 있습니다.</p>
           </S.Title>
-          <S.Title2>#FRONT-END</S.Title2>
+          <S.Title2>#FRONT</S.Title2>
           <ProgressBar score={25} />
           <S.ChartWrap id="chart">
             {chartsData.slice(0, 6).map((chartData, index) => (
@@ -29,18 +29,18 @@ class Page3 extends Component {
             ))}
           </S.ChartWrap>
 
-          <S.Title2>#USING TOOL</S.Title2>
+          <S.Title2>#BACK/Data/DevOps</S.Title2>
           <S.ChartWrap id="chart">
             {chartsData.slice(6, 12).map((chartData, index) => (
-              <div key={index} className="chart">
-                <ReactApexChart
-                  options={chartData.options}
-                  series={chartData.series}
-                  type="radialBar"
-                  width={200}
-                  height={200}
-                />
-              </div>
+                <div key={index} className="chart">
+                  <ReactApexChart
+                      options={chartData.options}
+                      series={chartData.series}
+                      type="radialBar"
+                      width={200}
+                      height={200}
+                  />
+                </div>
             ))}
           </S.ChartWrap>
         </S.PageWrap>

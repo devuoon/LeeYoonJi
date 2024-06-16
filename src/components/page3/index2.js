@@ -23,7 +23,7 @@ const Page3 = () => {
             data-aos-duration="1000"
             data-aos-delay="400"
           >
-            <S.Title2>#FRONT-END</S.Title2>
+            <S.Title2>#FRONT</S.Title2>
             <S.FlexWrap>
               <img
                 src="https://i.ibb.co/pv7gztf/HTML5.png"
@@ -76,31 +76,11 @@ const Page3 = () => {
                   label={"JavaScript"}
                   progressColor={"red"}
                   darkTheme
-                  score={65}
+                  score={70}
                 />
                 <p>
                   Javascript의 배열, 메소드, DOM을 이해하며 다양한 상황에 적용할
                   수 있습니다.
-                </p>
-              </div>
-            </S.FlexWrap>
-            <S.FlexWrap>
-              <img
-                src="https://i.ibb.co/KXyYC20/jquery.png"
-                alt="jquery"
-                border="0"
-              />
-              <div className="flex">
-                <ProgressBar
-                  className="space"
-                  label={"Jquery"}
-                  progressColor={"green"}
-                  darkTheme
-                  score={60}
-                />
-                <p>
-                  실무에서 활용해본 경험이 있으며 효율적인 DOM조작법을 알고
-                  있습니다.
                 </p>
               </div>
             </S.FlexWrap>
@@ -114,7 +94,7 @@ const Page3 = () => {
                 <ProgressBar
                   className="space"
                   label={"React"}
-                  progressColor={"blue"}
+                  progressColor={"green"}
                   darkTheme
                   score={70}
                 />
@@ -144,134 +124,148 @@ const Page3 = () => {
                 </p>
               </div>
             </S.FlexWrap>
+            <S.FlexWrap>
+                  <img
+                      src="https://i.ibb.co/Dp19bqX/tailwind.png"
+                      alt="Tailwind"
+                      border="0"
+                  />
+                  <div className="flex">
+                      <ProgressBar
+                          className="space"
+                          label={"Tailwind"}
+                          progressColor={"blue"}
+                          darkTheme
+                          score={60}
+                      />
+                      <p>
+                          테일윈드를 활용해 빠르고 효율적으로 반응형 웹사이트를 스타일링할 수 있습니다.
+                      </p>
+                  </div>
+              </S.FlexWrap>
           </S.ToolBox>
-          <S.ToolBox
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="800"
-          >
-            <S.Title2>#Using Tool</S.Title2>
-            <S.FlexWrap>
-              <img
-                src="https://i.ibb.co/pwHZvr7/vscode.png"
-                alt="Vs code"
-                border="0"
-              />
-              <div className="flex">
-                <ProgressBar
-                  className="space"
-                  label={"Visual Studio Code"}
-                  progressColor={"red"}
-                  darkTheme
-                  score={80}
-                />
-                <p>
-                  주로 사용하는 코딩툴이며, 코딩에 편리한 확장프로그램들을
-                  설치해 사용하고 있습니다.
-                </p>
-              </div>
-            </S.FlexWrap>
-            <S.FlexWrap>
-              <img
-                src="https://i.ibb.co/X20W2n0/git.png"
-                alt="Git"
-                border="0"
-              />
-              <div className="flex">
-                <ProgressBar
-                  className="space"
-                  label={"Git"}
-                  progressColor={"blue"}
-                  darkTheme
-                  score={75}
-                />
-                <p>
-                  commit, push, pull, clone 등 git 명령어를 사용하여
-                  레파지토리에 접근할 수 있습니다.
-                </p>
-              </div>
-            </S.FlexWrap>
-            <S.FlexWrap>
-              <img
-                src="https://i.ibb.co/yfVvNr9/postman.png"
-                alt="Postman"
-                border="0"
-              />
-              <div className="flex">
-                <ProgressBar
-                  className="space"
-                  label={"Postman"}
-                  progressColor={"red"}
-                  darkTheme
-                  score={55}
-                />
-                <p>
-                  Postman을 이용해 서버에 GET, POST 요청을 해서 서버 디버깅을 할
-                  수 있습니다.
-                </p>
-              </div>
-            </S.FlexWrap>
-            <S.FlexWrap>
-              <img
-                src="https://i.ibb.co/4Kxm0rV/photoshop.png"
-                alt="Photoshop"
-                border="0"
-              />
-              <div className="flex">
-                <ProgressBar
-                  className="space"
-                  label={"Photoshop"}
-                  progressColor={"green"}
-                  darkTheme
-                  score={80}
-                />
-                <p>
-                  마스크효과, 레이어 활용 등을 이용해 다양한 그래픽 요소를
-                  제작할 수 있습니다.
-                </p>
-              </div>
-            </S.FlexWrap>
-            <S.FlexWrap>
-              <img
-                src="https://i.ibb.co/WFhWH40/illustrator.png"
-                alt="illustrator"
-                border="0"
-              />
-              <div className="flex">
-                <ProgressBar
-                  className="space"
-                  label={"Illustrator"}
-                  progressColor={"blue"}
-                  darkTheme
-                  score={80}
-                />
-                <p>
-                  펜툴 활용과 기타도구들을 이용해서 벡터 형식의 디자인 요소를
-                  제작할 수 있습니다.
-                </p>
-              </div>
-            </S.FlexWrap>
-            <S.FlexWrap>
-              <img
-                src="https://i.ibb.co/txRHjf7/figma.png"
-                alt="Figma"
-                border="0"
-              />
-              <div className="flex">
-                <ProgressBar
-                  className="space"
-                  label={"Figma"}
-                  progressColor={"purple"}
-                  darkTheme
-                  score={65}
-                />
-                <p>
-                  데스크톱, 모바일 UI/UX 시안을 작업 할 수 있으며, 디버깅을 잘
-                  활용할 수 있습니다.
-                </p>
-              </div>
-            </S.FlexWrap>
-          </S.ToolBox>
+
+            <S.ToolBox
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="400"
+            >
+                <S.Title2>#BACK/Data/DevOps</S.Title2>
+                <S.FlexWrap>
+                    <img
+                        src="https://i.ibb.co/9g5Qfzf/java.png"
+                        alt="Java"
+                        border="0"
+                    />
+                    <div className="flex">
+                        <ProgressBar
+                            className="space"
+                            label={"Java"}
+                            progressColor={"red"}
+                            darkTheme
+                            score={65}
+                        />
+                        <p>
+                            객체지향 프로그래밍과 다양한 디자인 패턴을 적용한 애플리케이션을 개발할 수 있습니다.
+                        </p>
+                    </div>
+                </S.FlexWrap>
+                <S.FlexWrap>
+                    <img
+                        src="https://i.ibb.co/r2zRzxD/spring.png"
+                        alt="Spring"
+                        border="0"
+                    />
+                    <div className="flex">
+                        <ProgressBar
+                            className="space"
+                            label={"Spring"}
+                            progressColor={"blue"}
+                            darkTheme
+                            score={65}
+                        />
+                        <p>
+                            대규모 웹 애플리케이션을 개발하고, 의존성 주입 및 관점 지향 프로그래밍을 적용할 수 있습니다.
+                        </p>
+                    </div>
+                </S.FlexWrap>
+                <S.FlexWrap>
+                    <img
+                        src="https://i.ibb.co/WpV5JMt/mybatis.png"
+                        alt="MyBatis"
+                        border="0"
+                    />
+                    <div className="flex">
+                        <ProgressBar
+                            className="space"
+                            label={"MyBatis"}
+                            progressColor={"red"}
+                            darkTheme
+                            score={60}
+                        />
+                        <p>
+                            복잡한 SQL 쿼리를 매핑하고, 효율적으로 데이터베이스와 상호작용할 수 있습니다.
+                        </p>
+                    </div>
+                </S.FlexWrap>
+                <S.FlexWrap>
+                    <img
+                        src="https://i.ibb.co/fSCgRdX/oracle.png"
+                        alt="Oracle"
+                        border="0"
+                    />
+                    <div className="flex">
+                        <ProgressBar
+                            className="space"
+                            label={"Oracle"}
+                            progressColor={"green"}
+                            darkTheme
+                            score={70}
+                        />
+                        <p>
+                            DBMS를 사용해 데이터베이스 설계, PL/SQL 프로그래밍, 쿼리 최적화를 수행할 수 있습니다.
+                        </p>
+                    </div>
+                </S.FlexWrap>
+                <S.FlexWrap>
+                    <img
+                        src="https://i.ibb.co/X20W2n0/git.png"
+                        alt="Git"
+                        border="0"
+                    />
+                    <div className="flex">
+                        <ProgressBar
+                            className="space"
+                            label={"Git"}
+                            progressColor={"purple"}
+                            darkTheme
+                            score={90}
+                        />
+                        <p>
+                            Git을 사용해 버전 관리, 브랜치 전략, 협업 워크플로우를 효율적으로 관리할 수 있습니다.
+                        </p>
+                    </div>
+                </S.FlexWrap>
+                <S.FlexWrap>
+                    <img
+                        src="https://i.ibb.co/5nKJTfY/Docker.png"
+                        alt="Docker"
+                        border="0"
+                    />
+                    <div className="flex">
+                        <ProgressBar
+                            className="space"
+                            label={"Docker"}
+                            progressColor={"blue"}
+                            darkTheme
+                            score={60}
+                        />
+                        <p>
+                            Docker를 이용해 컨테이너화된 애플리케이션을 작성하고, 배포 및 관리를 자동화할 수 있습니다.
+                        </p>
+                    </div>
+                </S.FlexWrap>
+            </S.ToolBox>
         </S.ToolWrap>
       </S.PageWrap>
     </S.Page3>

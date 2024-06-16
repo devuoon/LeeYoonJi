@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import * as S from "../page.style";
 import useScrollPosition from "../../hook/scroll";
 
-const phrases = ["Hello, world", "LEE YOON JI PORTFOLIO", "FRONTEND DEVELOPER"];
+const phrases = ["Hello, world", "LEE YOON JI PORTFOLIO", "FRONTEND DEVELOPER","BACKEND DEVELOPER"];
 
 class TextScramble {
   constructor(el) {

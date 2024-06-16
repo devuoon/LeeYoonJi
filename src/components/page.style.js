@@ -159,7 +159,7 @@ export const BackWrap = styled.div`
 
   h1 {
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: 100px;
     font-size: 120px;
     font-weight: 900;
