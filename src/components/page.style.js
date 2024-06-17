@@ -3,6 +3,17 @@ import styled from "styled-components";
 export const PageWrap = styled.div`
   max-width: 1200px;
   margin: 0 auto;
+
+    .slick-prev:before, .slick-next:before {
+        display:none;
+    }
+    .slick-next{
+        right:40px;
+    }
+    .slick-prev{
+        left:40px;
+        z-index:9999;
+    }
 `;
 
 export const ScrollStyle = styled.div`
@@ -272,7 +283,7 @@ export const Title2 = styled.h3`
 export const ChartWrap = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-bottom: 60px;
+  margin: 60px 0;
 
   image {
     width: 40px;
@@ -323,39 +334,14 @@ export const Page4 = styled.div`
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  height: 100vh;
-  background: url("my-react-app/src/img/3.jpeg") no-repeat center/cover;
+  //height: 100vh;
+  background: url("/Users/yoonji/git/LeeYoonJi/src/img/3.jpeg") no-repeat center/cover;
   width: 100%;
-
-  .mySwiper {
-    max-width: 642px;
-    overflow: visible;
-  }
-  .swiper-pagination {
-    bottom: -60px;
-  }
-  .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
-    margin: 0 15px !important;
-    background: #dcdcdc;
-  }
-  .swiper-pagination-bullet-active {
-    background: #fff;
-  }
-  .swiper-button-prev,
-  .swiper-button-next {
-    color: #dcdcdc;
-    opacity: 0.6;
-  }
-  .swiper-button-prev {
-    left: -80px;
-  }
-  .swiper-button-next {
-    right: -80px;
-  }
+  margin-top:100px;
 
   .projectslide {
+    width:60% !important;
+    display:block !important;
     margin: 0 auto;
     img {
       width: 100%;
@@ -384,6 +370,11 @@ export const Page4 = styled.div`
     }
   }
 `;
+
+export const SlickWrap = styled.div`
+    margin:0 auto;
+    width:60%;
+`
 
 export const FlexWrap2 = styled.div`
   display: flex;

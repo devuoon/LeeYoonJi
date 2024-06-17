@@ -239,7 +239,7 @@ const Page3 = () => {
                             label={"Git"}
                             progressColor={"purple"}
                             darkTheme
-                            score={90}
+                            score={70}
                         />
                         <p>
                             Git을 사용해 버전 관리, 브랜치 전략, 협업 워크플로우를 효율적으로 관리할 수 있습니다.
