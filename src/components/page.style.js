@@ -160,7 +160,7 @@ export const ScrollWrap = styled.div`
 
 export const BackWrap = styled.div`
   margin: 0 auto;
-  padding: 60px 0px 160px;
+  padding: 60px 0px 0px;
   display: flex;
   justify-content: center;
   position: relative;
