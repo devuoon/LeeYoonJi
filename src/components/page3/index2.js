@@ -36,7 +36,7 @@ const Page3 = () => {
                   label={"HTML5"}
                   progressColor={"red"}
                   darkTheme
-                  score={80}
+                  score={70}
                 />
                 <p>
                   HTML 시멘틱 태그를 이해하고 웹접근성, 표준성을 준수하여 마크업
@@ -56,7 +56,7 @@ const Page3 = () => {
                   label={"CSS3"}
                   progressColor={"blue"}
                   darkTheme
-                  score={80}
+                  score={70}
                 />
                 <p>
                   크로스 브라우징, 반응형 웹을 위한 적절한 스타일링 방법을
@@ -76,7 +76,7 @@ const Page3 = () => {
                   label={"JavaScript"}
                   progressColor={"red"}
                   darkTheme
-                  score={70}
+                  score={60}
                 />
                 <p>
                   Javascript의 배열, 메소드, DOM을 이해하며 다양한 상황에 적용할
@@ -96,7 +96,7 @@ const Page3 = () => {
                   label={"React"}
                   progressColor={"green"}
                   darkTheme
-                  score={70}
+                  score={50}
                 />
                 <p>
                   다양한 라이브러리를 활용해 React를 활용한 프로젝트를 진행한
@@ -116,7 +116,7 @@ const Page3 = () => {
                   label={"TypeScript"}
                   progressColor={"purple"}
                   darkTheme
-                  score={60}
+                  score={50}
                 />
                 <p>
                   Type-Safe한 코드 작성으로 인한 버그가 적은 코드를 작성할 수
@@ -136,7 +136,7 @@ const Page3 = () => {
                           label={"Tailwind"}
                           progressColor={"blue"}
                           darkTheme
-                          score={60}
+                          score={55}
                       />
                       <p>
                           테일윈드를 활용해 빠르고 효율적으로 반응형 웹사이트를 스타일링할 수 있습니다.
@@ -163,7 +163,7 @@ const Page3 = () => {
                             label={"Java"}
                             progressColor={"red"}
                             darkTheme
-                            score={65}
+                            score={40}
                         />
                         <p>
                             객체지향 프로그래밍과 다양한 디자인 패턴을 적용한 애플리케이션을 개발할 수 있습니다.
@@ -182,7 +182,7 @@ const Page3 = () => {
                             label={"Spring"}
                             progressColor={"blue"}
                             darkTheme
-                            score={65}
+                            score={45}
                         />
                         <p>
                             대규모 웹 애플리케이션을 개발하고, 의존성 주입 및 관점 지향 프로그래밍을 적용할 수 있습니다.
@@ -201,7 +201,7 @@ const Page3 = () => {
                             label={"MyBatis"}
                             progressColor={"red"}
                             darkTheme
-                            score={60}
+                            score={40}
                         />
                         <p>
                             복잡한 SQL 쿼리를 매핑하고, 효율적으로 데이터베이스와 상호작용할 수 있습니다.
@@ -220,7 +220,7 @@ const Page3 = () => {
                             label={"Oracle"}
                             progressColor={"green"}
                             darkTheme
-                            score={70}
+                            score={45}
                         />
                         <p>
                             DBMS를 사용해 데이터베이스 설계, PL/SQL 프로그래밍, 쿼리 최적화를 수행할 수 있습니다.
@@ -239,7 +239,7 @@ const Page3 = () => {
                             label={"Git"}
                             progressColor={"purple"}
                             darkTheme
-                            score={70}
+                            score={60}
                         />
                         <p>
                             Git을 사용해 버전 관리, 브랜치 전략, 협업 워크플로우를 효율적으로 관리할 수 있습니다.
@@ -258,7 +258,7 @@ const Page3 = () => {
                             label={"Docker"}
                             progressColor={"blue"}
                             darkTheme
-                            score={60}
+                            score={40}
                         />
                         <p>
                             Docker를 이용해 컨테이너화된 애플리케이션을 작성하고, 배포 및 관리를 자동화할 수 있습니다.

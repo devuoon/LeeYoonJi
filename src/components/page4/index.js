@@ -80,7 +80,7 @@ const Page4 = () => {
                         </S.FlexWrap2>
                         <S.FlexWrap2>
                         <a
-                                href="#"
+                                href="http://52.78.114.31:8082/"
                                 className="Site"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -155,15 +155,15 @@ const Page4 = () => {
                             <p>#반응형웹</p>
                         </S.FlexWrap2>
                         <S.FlexWrap2>
-                            <a
-                                href="http://challeniz.mooo.com/"
-                                className="Site"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FiExternalLink/>
-                                사이트 바로가기
-                            </a>
+                            {/*<a*/}
+                            {/*    href="http://challeniz.mooo.com/"*/}
+                            {/*    className="Site"*/}
+                            {/*    target="_blank"*/}
+                            {/*    rel="noopener noreferrer"*/}
+                            {/*>*/}
+                            {/*    <FiExternalLink/>*/}
+                            {/*    사이트 바로가기*/}
+                            {/*</a>*/}
                             <a
                                 href="https://github.com/devuoon/challeniz"
                                 className="Git"
