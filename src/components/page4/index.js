@@ -93,6 +93,34 @@ const Page4 = () => {
                     </div>
                     <div className="projectslide">
                         <img
+                            src="https://i.ibb.co/SXqNtrW/tims.png"
+                            alt="mozip-main"
+                        />
+                        <h2>TIMS(택시운행정보관리시스템)</h2>
+                        <p className="subinfo">실무작업물</p>
+                        <h3>
+                            HTML, CSS, JavaScript를 활용해 웹퍼블리싱을 담당했습니다.
+                        </h3>
+                        <S.FlexWrap2>
+                            <p>#HTML</p>
+                            <p>#CSS</p>
+                            <p>#JavaScript</p>
+                            <p>#Jquery</p>
+                        </S.FlexWrap2>
+                        <S.FlexWrap2>
+                            <a
+                                href="https://tims.kotsa.or.kr/pts/index.do"
+                                className="Site"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FiExternalLink/>
+                                사이트 바로가기
+                            </a>
+                        </S.FlexWrap2>
+                    </div>
+                    <div className="projectslide">
+                        <img
                             src="https://i.ibb.co/xLV9Lw0/mozip.png"
                             alt="mozip-main"
                         />
