@@ -62,6 +62,37 @@ const Page4 = () => {
                 <Slider {...settings}>
                     <div className="projectslide">
                         <img
+                            src="https://i.ibb.co/CV4pDJ7/mtis.png"
+                            alt="mozip-main"
+                        />
+                        <h2>MTIS(해양교통안전정보시스템)</h2>
+                        <p className="subinfo">실무작업물</p>
+                        <h3>
+                            (2022.07 ~ 2022.12)
+                            kendoUI를 사용해 GIS 기반 웹 퍼블리싱 및 프론트엔드 개발을 진행했습니다.
+                            주로 실시간 해양교통정보, 해양사고분석 파트를 담당했습니다.
+                        </h3>
+                        <S.FlexWrap2>
+                            <p>#HTML</p>
+                            <p>#CSS</p>
+                            <p>#JavaScript</p>
+                            <p>#Jquery</p>
+                            <p>#KendoUI</p>
+                        </S.FlexWrap2>
+                        <S.FlexWrap2>
+                            <a
+                                href="https://mtis.komsa.or.kr/traffic/liveSea"
+                                className="Site"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FiExternalLink/>
+                                사이트 바로가기
+                            </a>
+                        </S.FlexWrap2>
+                    </div>
+                    <div className="projectslide">
+                        <img
                             src="https://i.ibb.co/xLV9Lw0/mozip.png"
                             alt="mozip-main"
                         />
@@ -79,7 +110,7 @@ const Page4 = () => {
                             <p>#MyBatis</p>
                         </S.FlexWrap2>
                         <S.FlexWrap2>
-                        <a
+                            <a
                                 href="http://52.78.114.31:8082/"
                                 className="Site"
                                 target="_blank"
