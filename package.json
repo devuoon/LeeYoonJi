@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@channel.io/channel-web-sdk-loader": "^1.1.7",
     "@emailjs/browser": "^3.11.0",
     "@react-spring/parallax": "^9.7.3",
     "@testing-library/jest-dom": "^5.17.0",

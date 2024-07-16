@@ -28,7 +28,7 @@ export default Toptoscroll;
 
 const TopWrap = styled.div`
   position: fixed;
-  bottom: 30px;
+  bottom: 100px;
   right: 25px;
   border: 1px solid #fff;
   padding: 12px 15px;

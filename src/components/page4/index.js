@@ -62,63 +62,33 @@ const Page4 = () => {
                 <Slider {...settings}>
                     <div className="projectslide">
                         <img
-                            src="https://i.ibb.co/CV4pDJ7/mtis.png"
-                            alt="mozip-main"
+                            src="https://ibb.co/1r38LtW"
+                            alt="gitSearch"
                         />
-                        <h2>MTIS(해양교통안전정보시스템)</h2>
-                        <p className="subinfo">실무작업물</p>
+                        <h2>깃허브 레포지토리 검색</h2>
+                        <p className="subinfo">개인프로젝트</p>
                         <h3>
-                            (2022.07 ~ 2022.12)
-                            kendoUI를 사용해 GIS 기반 웹 퍼블리싱을 진행했습니다.
-                            주로 실시간 해양교통정보, 해양사고분석 파트를 담당했습니다.
+                           github api를 활용하여 레포지토리 검색 기능을 구한한
+                            react 프로젝트 입니다.
                         </h3>
                         <S.FlexWrap2>
-                            <p>#HTML</p>
-                            <p>#CSS</p>
-                            <p>#JavaScript</p>
-                            <p>#Jquery</p>
-                            <p>#KendoUI</p>
+                            <p>#Github</p>
+                            <p>#React</p>
+                            <p>#React-query</p>
                         </S.FlexWrap2>
                         <S.FlexWrap2>
                             <a
-                                href="https://mtis.komsa.or.kr/traffic/liveSea"
-                                className="Site"
+                                href="https://github.com/PKNU-JavaStudy/mozip_backend"
+                                className="Git"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <FiExternalLink/>
-                                사이트 바로가기
+                                <AiFillGithub/>
+                                Github
                             </a>
                         </S.FlexWrap2>
                     </div>
-                    <div className="projectslide">
-                        <img
-                            src="https://i.ibb.co/SXqNtrW/tims.png"
-                            alt="mozip-main"
-                        />
-                        <h2>TIMS(택시운행정보관리시스템)</h2>
-                        <p className="subinfo">실무작업물</p>
-                        <h3>
-                            HTML, CSS, JavaScript를 활용해 웹퍼블리싱을 담당했습니다.
-                        </h3>
-                        <S.FlexWrap2>
-                            <p>#HTML</p>
-                            <p>#CSS</p>
-                            <p>#JavaScript</p>
-                            <p>#Jquery</p>
-                        </S.FlexWrap2>
-                        <S.FlexWrap2>
-                            <a
-                                href="https://tims.kotsa.or.kr/pts/index.do"
-                                className="Site"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FiExternalLink/>
-                                사이트 바로가기
-                            </a>
-                        </S.FlexWrap2>
-                    </div>
+
                     <div className="projectslide">
                         <img
                             src="https://i.ibb.co/xLV9Lw0/mozip.png"
@@ -231,6 +201,65 @@ const Page4 = () => {
                             >
                                 <AiFillGithub/>
                                 Github
+                            </a>
+                        </S.FlexWrap2>
+                    </div>
+                    <div className="projectslide">
+                        <img
+                            src="https://i.ibb.co/CV4pDJ7/mtis.png"
+                            alt="mozip-main"
+                        />
+                        <h2>MTIS(해양교통안전정보시스템)</h2>
+                        <p className="subinfo">실무작업물</p>
+                        <h3>
+                            (2022.07 ~ 2022.12)
+                            kendoUI를 사용해 GIS 기반 웹 퍼블리싱을 진행했습니다.
+                            주로 실시간 해양교통정보, 해양사고분석 파트를 담당했습니다.
+                        </h3>
+                        <S.FlexWrap2>
+                            <p>#HTML</p>
+                            <p>#CSS</p>
+                            <p>#JavaScript</p>
+                            <p>#Jquery</p>
+                            <p>#KendoUI</p>
+                        </S.FlexWrap2>
+                        <S.FlexWrap2>
+                            <a
+                                href="https://mtis.komsa.or.kr/traffic/liveSea"
+                                className="Site"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FiExternalLink/>
+                                사이트 바로가기
+                            </a>
+                        </S.FlexWrap2>
+                    </div>
+                    <div className="projectslide">
+                        <img
+                            src="https://i.ibb.co/SXqNtrW/tims.png"
+                            alt="mozip-main"
+                        />
+                        <h2>TIMS(택시운행정보관리시스템)</h2>
+                        <p className="subinfo">실무작업물</p>
+                        <h3>
+                            HTML, CSS, JavaScript를 활용해 웹퍼블리싱을 담당했습니다.
+                        </h3>
+                        <S.FlexWrap2>
+                            <p>#HTML</p>
+                            <p>#CSS</p>
+                            <p>#JavaScript</p>
+                            <p>#Jquery</p>
+                        </S.FlexWrap2>
+                        <S.FlexWrap2>
+                            <a
+                                href="https://tims.kotsa.or.kr/pts/index.do"
+                                className="Site"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FiExternalLink/>
+                                사이트 바로가기
                             </a>
                         </S.FlexWrap2>
                     </div>
