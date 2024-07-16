@@ -62,7 +62,7 @@ const Page4 = () => {
                 <Slider {...settings}>
                     <div className="projectslide">
                         <img
-                            src="https://ibb.co/1r38LtW"
+                            src="https://i.ibb.co/1r38LtW/git-search.png"
                             alt="gitSearch"
                         />
                         <h2>깃허브 레포지토리 검색</h2>
@@ -78,7 +78,7 @@ const Page4 = () => {
                         </S.FlexWrap2>
                         <S.FlexWrap2>
                             <a
-                                href="https://github.com/PKNU-JavaStudy/mozip_backend"
+                                href="https://github.com/devuoon/Git-Repo-Search"
                                 className="Git"
                                 target="_blank"
                                 rel="noopener noreferrer"
