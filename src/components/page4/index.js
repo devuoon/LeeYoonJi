@@ -62,7 +62,7 @@ const Page4 = () => {
                 <Slider {...settings}>
                     <div className="projectslide">
                         <img
-                            src="https://i.ibb.co/1r38LtW/git-search.png"
+                            src="https://i.ibb.co/PcRwNvH/git-search.png"
                             alt="gitSearch1"
                         />
                         <h2>깃허브 레포지토리 검색</h2>
