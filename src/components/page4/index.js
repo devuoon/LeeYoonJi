@@ -62,13 +62,41 @@ const Page4 = () => {
                 <Slider {...settings}>
                     <div className="projectslide">
                         <img
+                            src="https://i.ibb.co/tp9NPQn/user-Manage.png"
+                            alt="userManage"
+                        />
+                        <h2>유저 관리 시스템</h2>
+                        <p className="subinfo">개인프로젝트</p>
+                        <h3>
+                            RESTful API를 활용한 간단한 유저 관리 시스템을 구현했습니다.
+                        </h3>
+                        <S.FlexWrap2>
+                            <p>#javascript</p>
+                            <p>#nodejs</p>
+                            <p>#Express</p>
+                            <p>#RESTful API</p>
+                        </S.FlexWrap2>
+                        <S.FlexWrap2>
+                            <a
+                                href="https://github.com/devuoon/userManage"
+                                className="Git"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <AiFillGithub/>
+                                Github
+                            </a>
+                        </S.FlexWrap2>
+                    </div>
+                    <div className="projectslide">
+                        <img
                             src="https://i.ibb.co/PcRwNvH/git-search.png"
                             alt="gitSearch1"
                         />
                         <h2>깃허브 레포지토리 검색</h2>
                         <p className="subinfo">개인프로젝트</p>
                         <h3>
-                           github api를 활용하여 레포지토리 검색 기능을 구한한
+                            github api를 활용하여 레포지토리 검색 기능을 구한한
                             react 프로젝트 입니다.
                         </h3>
                         <S.FlexWrap2>
@@ -88,7 +116,6 @@ const Page4 = () => {
                             </a>
                         </S.FlexWrap2>
                     </div>
-
                     <div className="projectslide">
                         <img
                             src="https://i.ibb.co/xLV9Lw0/mozip.png"
