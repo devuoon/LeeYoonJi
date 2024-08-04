@@ -10,7 +10,7 @@ const Footer = () => {
         <FaGithubSquare />
         <span>Github</span>
       </a>
-      <a href="https://yoon-dev.tistory.com/" target="_blank">
+      <a href="https://devuoon.github.io/" target="_blank">
         <SiTistory />
         <span>Blog</span>
       </a>
